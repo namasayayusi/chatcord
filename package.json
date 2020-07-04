@@ -4,8 +4,10 @@
   "description": "Realtime chat app with rooms",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "author": "Yusuf Islam Salim",
   "license": "MIT",
@@ -15,7 +17,6 @@
     "moment": "^2.27.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
